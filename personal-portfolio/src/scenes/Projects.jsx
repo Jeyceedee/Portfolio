@@ -82,7 +82,7 @@ const Projects = () => {
           
           <Project link="https://github.com/Jeyceedee/Generating-Shakespearean-Poetry-using-Markov-Chain-and-LSTM" title={project1} projectTitle="Shakespearean Poetry Generator" subtitle="It is a web application that uses a combination of Markov chain and Long Short-Term Memory 
           (LSTM) models to generate text that mimics the style and structure of Shakespeare's writing." />
-          <Project link="https://github.com/Jeyceedee/Sixth-Sense" title={project2} projectTitle="Sixth Sense" subtitle="it is a web application that utilized an Xception model, Data Augmentation, and Image Processing for the classification of 4 tumors:
+          <Project link="https://github.com/Jeyceedee/Sixth-Sense" title={project2} projectTitle="Sixth Sense" subtitle="It is a web application that utilized an Xception model, Data Augmentation, and Image Processing for the classification of 4 tumors:
           meningioma, pituitary, glioma, or no tumor."/>
 
           {/* ROW 2 */}
