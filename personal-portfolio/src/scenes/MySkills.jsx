@@ -24,7 +24,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            I have a broad range of applicable skills that enables me to be a valuable member of the team. These include specific technical skills I have developed over the last four years with strong soft skills.
+            I have a broad range of applicable skills that enables me to be a valuable member of the team. These include specific technical skills and strong soft skills I have developed over the last four years.
           </p>
         </motion.div>
 
