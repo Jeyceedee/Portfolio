@@ -34,7 +34,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
-      <div className="w-5/6 mx-auto ">
+      <div className="flex flex-col h-full w-5/6 mx-auto overflow-hidden">
         {isDesktop && (
           <DotGroup
             selectedPage={selectedPage}
@@ -50,7 +50,7 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto  ">
+      <div className="h-full w-5/6 mx-auto overflow-hidden  ">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -60,7 +60,7 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
+      <div className="w-5/6 mx-auto overflow-hidden">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
@@ -70,11 +70,8 @@ function App() {
         </motion.div>
       </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
-        
-      </div>
       <LineGradient />
-      <div className="w-5/6 mx-auto">
+      <div className="h-full w-5/6 mx-auto overflow-hidden">
         <motion.div
           margin="0 0 -200px 0"
           amount="all"
